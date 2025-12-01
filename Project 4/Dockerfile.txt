@@ -1,0 +1,5 @@
+# Use Apache HTTP server image
+FROM httpd:2.4
+
+# Copy your website into Apache's web root
+COPY ./web-content/ /usr/local/apache2/htdocs/
